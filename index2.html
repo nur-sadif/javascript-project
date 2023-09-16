@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML ELEMENT CONTENT CHANGE</h1>
+   <button onclick="myfunction1()">HELLO  SADIF</button><br>
+   <br>
+   <button onclick="myfunction2()">YOUR NAME? </button><br>
+   <br>
+   <button onclick="myfunction3()">YOUR SCHOOL NAME </button><br>
+   <p id="demo"> HOW ARE YOU</p>
+   <p id="demo1"> WHAT'S YOUR NAME</p>
+   <p id="demo2"> WHAT'S YOUR SCHOOL NAME</p>
+<script>
+
+    function myfunction1(){
+            
+     document.getElementById("demo").innerHTML="<h1> I AM FINE NOW </h1>";
+     
+    }
+
+
+
+    function myfunction2(){
+            
+    document.getElementById("demo1").innerHTML="<h1>MY NAME IS NUR SADIF </h1>";
+    }
+
+
+    function myfunction3(){
+            
+    document.getElementById("demo2").innerHTML="<h1>MAPLE LEAF INTERNATIONAL SCHOOL </h1>";
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
