@@ -7,20 +7,23 @@
 </head>
 <body>
     <script>
-        function sum(...args){
+        function sum(... args){
         let sum = 0;
         for(arg of args){
-            sum+= arg;
+          
+            sum+=arg;
+          
         }
-       return sum;
-    }
+        
+          return sum;
+    } 
+    let result=sum(10,20,30,40,50,60,70,80,90,100);
+    document.write(result);
 
-
-   let result = sum(2,34,45,3,4,5,6,7,8,9);
-   document.write(result);
-    </script>
-
-
-    
+            
+        
+        
+        
+</script>
 </body>
 </html>
