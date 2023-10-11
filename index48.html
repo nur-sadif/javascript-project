@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-    function RandomNumber($value){
-      return Math.random($value)*10;
-    }
-    let randomnumber=RandomNumber(20);
-    document.write(randomnumber);
-     
+        function RandomNumber() {
+            return Math.random() * 10;
+        }
+
+        let randomnumber = RandomNumber();
+        document.write(randomnumber+"<br>");
+
+        let randomnumber1 = Math.random() * 100;
+        document.write(randomnumber1);
+
+
     </script>
 </body>
+
 </html>
