@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="demo"></h1>
+    <script>
+        const myinfo = {
+            Firstname: "Nur",
+            Lastname: "Sadif",
+            Age: "9",
+            Eyecolor: "Blue",
+            School: "Maple leaf international school",
+            Class: "3",
+            Id: "Jul/23/5549",
+            Roll: "15",
+            Fruit: "Orange",
+            Vegetable: "Brokoly",
+            Song: "Beliver",
+            Youtuber: "MR TEDDY BEAR",
+            Color: "Black white orange",
+            Car: "Rolls Royal",
+            Bike: "Kawasaki",
+            Player: "Messi",
+            Team: "Argentina"
+
+        }
+        let value = "";
+        for (let x in myinfo) {
+            value += myinfo[x] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = value;
+        document.write(`my firstname is ${myinfo.Firstname} and lastname is ${myinfo.Lastname} and eyecolor ${myinfo.Eyecolor} and age is ${myinfo.Age}`);
+    </script>
+</body>
+
+</html>
